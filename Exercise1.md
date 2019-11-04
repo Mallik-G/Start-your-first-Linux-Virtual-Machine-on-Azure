@@ -58,7 +58,6 @@ In this exercise, you will be creating an **Ubuntu** virtual machine using Azure
 
    ![](images/overview.png)
    
-   
 8. You have now successfully created a **Ubuntu Virtual Machine** on Azure. 
 
 ### 1.3 SSH to VM using Public IP
