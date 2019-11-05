@@ -36,7 +36,7 @@ In this exercise, you will be creating an **Ubuntu** virtual machine using Azure
 
    ![](images/ubuntunew.png)
    
-2. In the basics tab under the **Virtual machine details**, make sure the existing **Subscription** and existing  **Resource group** named **linux-empty-XXXX** is selected
+2. In the basics tab under the **Virtual machine details**, make sure the existing **Subscription** and existing  **Resource group** named **linux-empty-XXXX** is selected.
 
    ![](images/suscription.png)
    
