@@ -28,7 +28,7 @@ In this exercise, You'll be creating a **Virtual Machine Scale Set** using the A
    
 5. This repository contains the ARM template and parameter file which will provision a Virtual Machine Scale set and deploy an application on it. You can review the template files by browsing https://github.com/asinn826/Ignite2019VMSS-HOL in a separate browser tab. 
    
-6. Now, you'll need to edit the **azuredeploy.parameters.json** to provide your deployment specific values. Run the following command to open the parameters file in the **visual studio code**. Please ensure to modify the **vmssName** and **adminSshKey** values in the parameters file. 
+6. Now, you will need to edit the **azuredeploy.parameters.json** to provide your deployment specific values. Run the following command to open the parameters file in the **visual studio code**. Please ensure to modify the **vmssName** and **adminSshKey** values in the parameters file. 
       
        code azuredeploy.parameters.json
        
