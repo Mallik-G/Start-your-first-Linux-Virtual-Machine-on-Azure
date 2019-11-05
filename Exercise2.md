@@ -5,7 +5,7 @@ A VM scale set (VMSS) is a way to deploy several similar VMs with a single comma
 
 
 ### 2.1 Create a VM Scale Set
-In this exercise, You'll be creating a **Virtual Machine Scale Set** using the Azure Cloud Shell and ARM templates. Let's get started.
+In this exercise, You will be creating a **Virtual Machine Scale Set** using the Azure Cloud Shell and ARM templates. Let us get started.
 
 1. Select the **cloud shell** icon from the upper right corner of the Azure Portal, if not running already.
 
@@ -40,7 +40,7 @@ In this exercise, You'll be creating a **Virtual Machine Scale Set** using the A
    
 7. Save and close the **code editor** after you update the values in parameter file. 
 
-8. Now, let's create the deployment by running the below command. Please ensure to use your existing **resource group** named as **linux-empty-XXXX** and wait for the deployment to finish. 
+8. Now, let us create the deployment by running the below command. Please ensure to use your existing **resource group** named as **linux-empty-XXXX** and wait for the deployment to finish. 
 
    ``az group deployment create -g linux-empty-XXXX --template-file azuredeploy.json --parameters azuredeploy.parameters.json 
    ``
@@ -89,20 +89,20 @@ It will take 5 to 7 minutes for the deployment to complete. Meanwhile, let us re
 
    * Note that none of these were configured initially in your VM scale set, so you will need to upgrade the scale set model and then update individual instances to use them.
   
-   * There is a bonus section to this lab where you can try this for yourself
+   * There is a bonus section to this lab where you can try this for yourself.
 
 ### 2.3 Use autoscale rules on your VM scale set
 An Azure virtual machine scale set can automatically increase or decrease the number of VM instances that run your application. You create rules that define the acceptable performance for optimized customer experience. When those defined thresholds are met, autoscale rules take action to adjust the capacity of your scale set. You can also schedule events to automatically increase or decrease the capacity of your scale set at fixed times. Let us review the auto-scale settings for your VMSS.
 
 1. Go to the **Scaling** in the VMSS. Currently, the VMSS is set to automatic scaling.
 
-2. The VMSS will scale automatically based on load measured by CPU Utilization % of the VMSS Instances. Currently, it's set to increase the VMSS by 1 instance if the CPU utilization goes beyond 60% and decrease by 1 instance if CPU utilization goes lower than 30%. Additionally, there're minimum and maximum number of instances defined.  
+2. The VMSS will scale automatically based on load measured by CPU Utilization % of the VMSS Instances. Currently, it is set to increase the VMSS by 1 instance if the CPU utilization goes beyond 60% and decrease by 1 instance if CPU utilization goes lower than 30%. Additionally, there're minimum and maximum number of instances defined.  
 
    ![](images/autoscalerule.png)
 
 
 ### 2.4 Autoscale via the deployed web application
-In this exercise, we'll try to generate load on our newly created application hosted on VMSS. Let's get started.
+In this exercise, we will try to generate load on our newly created application hosted on VMSS. Let us get started.
 
 1. Go back to the **Overview** section for your scale set.
 
@@ -127,7 +127,7 @@ In this exercise, we'll try to generate load on our newly created application ho
 
 ### 2.5 Autoscale based on schedules. 
 
-1. In the **Azure Portal** and go to the **Scaling**, and let's try out creating a scheduled autoscale rule. (https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview#scheduled-autoscale)
+1. In the **Azure Portal** and go to the **Scaling**, and let us try out creating a scheduled autoscale rule. (https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview#scheduled-autoscale)
 
 2. Click the **Custom Autoscale**, and note all the options you have.
 
