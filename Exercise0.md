@@ -21,7 +21,7 @@ In this exercise, you will login to the **Azure portal** using your lab Azure cr
 
    ![](images/linux1.png)
    
-6. You are provided with two pre-created **Resource Groups** in the Lab. Let's review them.
+6. You are provided with two pre-created **Resource Groups** in the Lab. Let us review them.
 
 * linux-empty-UNIQUEID: Please use this resource group to deploy all resources as a part of this lab guide. This resource group does not contain any existing resources. 
 
